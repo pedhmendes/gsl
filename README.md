@@ -21,9 +21,9 @@ sudo apt-get install libgsl-dev</code></pre></ul>
   
   
 <ul><li><p>Random Number Generator</p></li></ul>
-<ul><p>Is not very hard to write linear congruential generator (LCG), but, for cientifical reasons, they can't be taken very serious. GSL library has a list of good RNG that we can use. In this repo you can find an example where I introduce some basic rng functions that GLS has to offer. I choose the <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> because it has and period of (2<sup>19937</sup> - 1) and good proprieties. More options of RNG can be found here<a href="https://www.gnu.org/software/gsl/doc/html/rng.html">here</a>.</p></ul>
+<ul><p>Is not very hard to write linear congruential generator (LCG), but, for cientifical reasons, they can't be taken very serious. GSL library has a list of good RNG that we can use. In this repo you can find an example where I introduce some basic rng functions that GLS has to offer. I choose the <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> because it has and period of (2<sup>19937</sup> - 1) and good proprieties. More options of RNG can be found <a href="https://www.gnu.org/software/gsl/doc/html/rng.html">here</a>.</p></ul>
 
 <ul><li><p>Números Seguindo Distribuição</p></li></ul>
 <ul><p>It can be convinient that we generate numbers following some distribution, GSL can do it. This special generators requires and random number as seed, then they return another number following the desired distribution. So we need the RNG, we talked about this above, and we can use one of GSL. We are gonna give the pointer as argument of the function, is not difficult as it sounds. As example there is a code in this repo that uses the <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">Box-Muller</a> method to generate numbers following the Gaussian Distribution. You can check this making and histogram. More information about this generators and more avaiable distributions can be found <a href="https://www.gnu.org/software/gsl/doc/html/randist.html">here</a>.</p></ul>
 
-</ul>
+
