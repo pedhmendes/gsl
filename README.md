@@ -1,12 +1,5 @@
-# gsl
+# GSL
 -- Gnu Scientific Library --
-
-Códigos para ajudar a entender funções disponíveis na biblioteca. Mais informações [aqui](https://www.gnu.org/software/gsl/).
-
-Codes that will help a better understanding of avaiable functions in the library. Mora information [here](https://www.gnu.org/software/gsl/).
-
-
-
 
 <h3 id="intro">A Biblioteca</h3>
 <ul><p>Uma ferramenta otima para programação científica em C é a gsl (GNU Scientific Library). Nessa página vou deixar programas simples onde implemento funções. Mais informações podem ser encontradas na página da <a href="https://www.gnu.org/software/gsl/">biblioteca</a>.</p></ul>
