@@ -25,3 +25,5 @@ sudo apt-get install libgsl-dev</code></pre></ul>
 
 <ul><li><p>Números Seguindo Distribuição</p></li></ul>
 <ul><p>It can be convinient that we generate numbers following some distribution, GSL can do it. This special generators requires and random number as seed, then they return another number following the desired distribution. So we need the RNG, we talked about this above, and we can use one of GSL. We are gonna give the pointer as argument of the function, is not difficult as it sounds. As example there is a code in this repo that uses the <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform">Box-Muller</a> method to generate numbers following the Gaussian Distribution. You can check this making and histogram. More information about this generators and more avaiable distributions can be found <a href="https://www.gnu.org/software/gsl/doc/html/randist.html">here</a>.</p></ul>
+
+</ul>
