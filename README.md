@@ -1,7 +1,7 @@
 # Gnu Scientific Library
 
 ## The Library
-<ul><p>A good tool for scientifc programmin in C is GNU Scientific Library (GSL). In this page I will leave some codes where some simple functions can be implemented. More informantion can be found in this <a href="https://www.gnu.org/software/gsl/">link</a>.</p></ul>
+<ul><p>A good tool for scientific programmin in C is GNU Scientific Library (GSL). In this page I will leave some codes where some simple functions can be implemented. More informantion can be found in this <a href="https://www.gnu.org/software/gsl/">link</a>.</p></ul>
 
 <ul><p>If you don't have the library installed, open a terminal and type.</p></ul>
 
